@@ -1,0 +1,55 @@
+.log-box{
+  overflow-x:hidden;
+  background:url("../../assets/img/background.jpg") no-repeat;
+  background-size:cover;
+}
+.log-form{
+  width:500px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 4px;
+  color: #Fff;
+}
+.log-form h1{
+  padding: 40px 0px 20px;
+  margin: 10px 0px;
+  text-align: center;
+  color: #fff;
+}
+.log-form-item{
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+.log-form-item:last-child{
+  text-align: center;
+}
+.log-form-item label{
+  width: 110px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: right;
+  margin-left:40px;
+}
+.log-form-item>span{
+  width: 16em;
+  margin-right: 10px;
+}
+.log-form-item:nth-child(4)>span{
+  width: 8em;
+}
+.log-form-img{
+  width: 100px;
+  vertical-align: middle;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.log-form-btn{
+  width: 80px;
+  margin-top: 10px;
+  background-color:#1ab394;
+  border-color:#1ab394;
+}
+.error{
+  color:#e86767;
+}

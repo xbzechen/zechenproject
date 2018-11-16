@@ -1,0 +1,30 @@
+.all-north > .panel-body {
+  height: 50px;
+  overflow: hidden;
+  border: none;
+  background:#2D8CF0;
+}
+.all-west{
+  width: 230px;
+}
+.all-west > .panel-body{
+  border: none;
+  background: rgba(0,0,0,0.9);
+}
+.all-center{
+
+}
+.all-center > .panel-body{
+  border: none;
+}
+.all-footer > .panel-body{
+  border: none;
+}
+.all-footer p{
+  overflow: hidden;
+  line-height: 30px;
+  border-top:1px solid #989898;
+  background:#F2F2F3;
+  text-align: center;
+  font-size:12px;
+}
